@@ -6,5 +6,6 @@ namespace NavigationComet;
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate
 {
-	protected override MauiApp CreateMauiApp() => App.CreateMauiApp();
+    protected override MauiApp CreateMauiApp() =>
+        App.CreateMauiApp();
 }

@@ -20,7 +20,6 @@ public partial class App : MauiWinUIApplication
         this.InitializeComponent();
     }
 
-    protected override MauiApp CreateMauiApp() => NavigationComet.App.CreateMauiApp();
-    
+    protected override MauiApp CreateMauiApp() =>
+        NavigationComet.App.CreateMauiApp();
 }
-

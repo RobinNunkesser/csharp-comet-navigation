@@ -1,4 +1,5 @@
 namespace NavigationComet;
+
 public class SecondLevelPage : View
 {
     private string text;
@@ -9,10 +10,5 @@ public class SecondLevelPage : View
     }
 
     [Body]
-    View body() => new VStack
-    {
-        new Text(text)
-    };
+    View body() => new VStack { new Text(text) };
 }
-
-
